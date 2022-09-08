@@ -9,6 +9,7 @@ const fromEuroToDollar = function(valueInEuro){
 const fromDollarToYen = function(valueInDollar){
     let valueInYen = valueInDollar *106.6;
     valueInYen=valueInYen.toFixed(1);
+    valueInYen=Number(valueInYen);
     return valueInYen;
 }
 const fromYenToPound = function(valueInYen){
